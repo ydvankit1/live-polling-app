@@ -1,0 +1,84 @@
+.resultsContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.resultsTitle {
+    color: #6C63FF;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.questionCard {
+    background: #F5F5FF;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+.question {
+    margin: 0;
+    color: #333;
+}
+
+.resultsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resultItem {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.optionInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.optionText {
+    font-weight: 500;
+}
+
+.voteCount {
+    color: #6C63FF;
+    font-weight: 600;
+}
+
+.progressContainer {
+    height: 24px;
+    background: #F0F0F0;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progressBar {
+    height: 100%;
+    background: #6C63FF;
+    border-radius: 12px;
+    transition: width 0.5s ease;
+}
+
+.percentage {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.loadingResults {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}

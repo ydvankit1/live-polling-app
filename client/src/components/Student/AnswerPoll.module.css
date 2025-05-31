@@ -1,0 +1,90 @@
+.pollContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.pollHeader {
+    background: #6C63FF;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+}
+
+.question {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.timer {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.optionsForm {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.optionLabel {
+    display: block;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    background: #F9F9F9;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.optionLabel:hover {
+    background: #F0F0FF;
+}
+
+.optionInput {
+    margin-right: 0.8rem;
+    accent-color: #6C63FF;
+}
+
+.submitButton {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    background: #6C63FF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.submitButton:hover {
+    background: #5A52D6;
+}
+
+.submitButton:disabled {
+    background: #CCCCCC;
+    cursor: not-allowed;
+}
+
+.noQuestion,
+.submittedMessage {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+}
+
+.submittedMessage {
+    color: #6C63FF;
+    font-weight: 500;
+}
