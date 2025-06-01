@@ -8,8 +8,8 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
     cors: {
-        origin: 'http://localhost:3000', // In production, replace with your client URL
-        // origin: '*',
+        // origin: 'http://localhost:3000', // In production, replace with your client URL
+        origin: '*',
         methods: ['GET', 'POST'],
     },
 });
